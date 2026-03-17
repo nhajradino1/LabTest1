@@ -22,6 +22,7 @@ public class Main {
             niti.add(nit);
             nit.start();
         }
+        System.out.println("Najjaci sam!");
     }
 
 }
