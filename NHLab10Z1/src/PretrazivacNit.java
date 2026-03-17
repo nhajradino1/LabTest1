@@ -9,6 +9,7 @@ public class PretrazivacNit extends Thread{
     }
 
     public void run() {
+        System.out.println("Breza entitet!");
         for (int i = pocektak; i < kraj && !Main.pronadjeno; i++) {
             if (Main.brojevi.get(i).equals(trazeni)) {
                 Main.pronadjeno = true;
