@@ -23,6 +23,7 @@ public class Main {
             nit.start();
         }
         System.out.println("Najjaci sam v2!");
+        System.out.println("Malo jaci od Loncarica v1!");
     }
 
 }
